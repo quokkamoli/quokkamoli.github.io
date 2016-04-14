@@ -1,0 +1,98 @@
+/*
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*/
+* {
+  font-family: "Muli", "Open Sans";
+}
+body {
+  background-color: #dedddd;
+}
+.nav,
+.navbar,
+.navbar-header,
+.navbar-default .navbar-brand,
+#navbar ul li a {
+  background-color: #445;
+  color: white;
+  font-size: 2.4rem;
+}
+#navbar ul li a {
+  font-size: 1.8rem;
+  color: #9d3; 
+}
+#navbar ul li a:hover {
+  font-size: 1.8rem;
+  color: white;
+  background-color: #233e3e;
+}
+.navbar-default .navbar-brand{
+  text-shadow: 1px 2px #313131;
+}
+
+.navbar-default .navbar-brand:hover
+{
+  color: #a9f538;
+}
+
+.jumbotron {
+  margin: 0px 15px;
+  padding: 10px 0;
+  text-align: center;
+}
+.jumbotron .h1 {
+  font-size: 40px;
+}
+
+h2 {
+  background-color: #2a4d4d;
+  border-radius: 3px;
+  padding: 10px 10px;
+  text-indent: 1.5em;
+  color: white;
+}
+
+.animal-container {
+  padding: 10px 15px;
+  background-color: azure;
+  margin: 0 0;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #445;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer p {
+  color: #9d3;
+}
+
+footer p a {
+  color: lightgrey;
+}
+
+.list-unstyled li {
+  padding: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+a {
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #959595;
+  color: white;
+}
+
+
+
