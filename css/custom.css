@@ -14,6 +14,10 @@ body {
   background-color: #dedddd;
 }
 
+.container {
+  min-width: 95%;
+}
+
 .nav,
 .navbar,
 .navbar-default .navbar-brand {
@@ -108,4 +112,13 @@ a:hover {
 
 img {
   max-height: 500px;
+}
+
+@media (max-width: 767px) {
+  .container-fluid {
+    padding: 0px;
+  }
+  .navbar-header {
+    margin: 0px;
+  }
 }
